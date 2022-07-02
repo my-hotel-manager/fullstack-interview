@@ -1,0 +1,11 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "nodemon src/ws.server.mjs"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.18",
+    "ws": "^8.8.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "nodemon src/ws.server.ts"
+  },
+  "dependencies": {
+    "@types/node": "^18.0.0",
+    "@types/ws": "^8.5.3",
+    "nodemon": "^2.0.18",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4",
+    "ws": "^8.8.0"
+  }
+}
